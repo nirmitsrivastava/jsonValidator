@@ -1,0 +1,36 @@
+{
+	"type": "array",
+	"items": {
+	  "type" : "object",
+		"properties": {
+			"web_pages": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"name": {
+				"type": "string"
+			},
+			"alpha_two_code": {
+				"type": "string"
+			},
+			"state-province": {
+				"type": "string",
+				"default" : null
+			},
+			"domains": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"country": {
+				"type": "string"
+			}
+		},
+		"required": [
+                "country"
+            ]
+	}
+}

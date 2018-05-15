@@ -1,7 +1,7 @@
 # jsonvalidation
 ### Steps :
 1. Clone project
-2. Run the following command in directory of test 
+2. Run the following command in directory of pom.xml 
 ```
 mvn clean test 
 ```
